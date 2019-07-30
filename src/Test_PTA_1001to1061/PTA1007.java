@@ -30,7 +30,7 @@ public class PTA1007 {
             }
         }
     }
-    public static boolean S(int n){//判断是否为素数
+    private static boolean S(int n){//判断是否为素数
         for(int i=2;i<=Math.sqrt(n);i++){
             if(n%i == 0)
             return false;
